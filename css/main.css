@@ -1,0 +1,149 @@
+body{
+	background-color: #F8F8F8;
+}
+.biopic {
+  	padding: 10px;
+  	width: 200px;
+  	border-radius: 150px;
+  
+}
+.container{
+	width: 700px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.home-top {
+	height: 39px;
+	top:0;
+	background-color:#F8F8F8;
+}
+.home-bottom{
+	bottom: 0;
+	text-align: center;
+}
+.navbar {
+	float: right;
+}
+.logo {
+	display:inline-block;
+	float:left;
+	height: 39px;
+	border-radius:5px;
+	margin-left: 16px
+}
+.navbar-item {
+	padding:8px 16px;
+	float:left;
+	background-color:inherit;
+	color:inherit;
+	width:auto;
+	border:none;
+	outline:none;
+	display:block
+}
+.navbar-button{
+	display:inline-block;
+	outline:0;
+	padding:8px 16px;
+	margin-left: 8px;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none!important;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap
+}
+
+.navbar-button{
+	border:1px solid;
+	border-color: #F8F8F8;
+	border-radius: 999em;
+	color:#7F7F7F;
+	background-color:inherit;
+
+}
+.navbar-button:hover{
+	border:1px solid #252525;
+	border-radius: 999em;
+	color:#252525;
+	background-color:inherit;
+
+}
+.skill{
+	display:inline-block;
+	margin:5px;
+	outline:0;
+	padding:8px 16px;
+	vertical-align:middle;
+	text-align:center;
+	cursor:pointer;
+	text-decoration:none;
+	border:1px solid #7F7F7F;
+	border-radius: 999em;
+	color:#7F7F7F;
+	background-color:inherit;
+}
+.skill-color{
+	color: #F8F8F8;
+	background-color: #7F7F7F;
+	border-color: #7F7F7F;
+}
+.skills{
+	align-content: left;
+	margin: 0 auto;
+	width: 500px;
+}
+.sidebar{
+	float: right;
+	margin: 0; 
+	padding-right: 0;
+	width: 38%;
+	text-align: left;
+}
+.mainbar{
+	float: left;
+	margin: 0;
+	padding-left: 0; 
+	width: 55%;
+}
+.mainbar img{
+	width: 100%;
+}
+.social-list{
+	margin-top: 100px; 
+}
+.social{
+	margin: 30px;
+	color: #0a0a0a;
+	text-decoration: none;
+}
+
+.hero-body{
+	min-height:60vh;
+	align-items: center;
+	flex-grow:1;
+	flex-shrink:0;
+	padding:3rem 1.5rem
+}
+
+.tag{
+	display:inline-block;
+	font-size: small;
+	margin: 2px;
+	margin-bottom: 20px;
+	border: 1px solid #dee2e5;
+   background-color: #dee2e5;
+   border-radius: 5px;
+   padding: 3px 10px;
+   color: #a9b1b5;
+   transition: all 300ms ease-in-out;
+}
+.tag:hover{
+	margin-bottom: 20px;
+	display:inline-block;
+     color: #fff;
+     background-color: #63d3e1;
+}
+
+.header{height: 300px;4background:no-repeat center center;background-color:gray;background-attachment:scroll;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover;margin-bottom:0}

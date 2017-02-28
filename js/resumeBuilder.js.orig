@@ -1,0 +1,48 @@
+/*
+This is empty on purpose! Your code to build the resume will go here.
+ */
+ var formattedName="Zhenle Zhu";
+ var formattedRole="Software Engineer";
+
+ var headerName=HTMLheaderName.replace("%data%", formattedName);
+ var headerRole=HTMLheaderRole.replace("%data%", formattedRole);
+
+ $("#header").prepend(headerRole);
+ $("#header").prepend(headerName);
+
+ var bio ={
+ 	"Name":"Zhenle Zhu",
+ 	"Role":"Software Engineer",
+ 	"Contact info":{
+ 		"Email":"zhuzhenle@gmail.com",
+ 		"Mobile":"352-284-6698",
+ 		"GitHub":"fivepercent",
+ 		"Twitter":"@Zhuzhenle",
+ 		"Location":"Fremont"
+ 	},
+ 	"picture URL":"images/me.jpg",
+ 	"Welcome message":"Hello~",
+ 	"Skills":[
+ 		"Java", "Javascript", "C++", "Python"
+ 	]
+ }
+
+ bio.Work={
+ 	"Position":"ASIC Design Engineer",
+ 	"Employer":"Marvell Technology Group Ltd.",
+ 	"Year worked":1,
+ 	"City":"Santa Clara"
+ }
+
+bio["Education"]={
+	"Name":"University of Florida",
+	"Majors":"Electrical and Computer Engineering",
+	"Minors":"None",
+	"Gradutaion Year":2014,
+	"Years":2,
+	"City":"Gainesville"
+}
+
+$("#main").append(bio.Work["Position"]+"\n");
+$("#main").append(bio.Education.Name);
+$("#main").append("Years in school:"+bio.Education["Years"]);4
