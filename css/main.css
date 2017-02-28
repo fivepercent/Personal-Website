@@ -147,3 +147,25 @@ body{
 }
 
 .header{height: 300px;4background:no-repeat center center;background-color:gray;background-attachment:scroll;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover;margin-bottom:0}
+
+
+.contactinput{
+	border-radius: 2px;
+	width: 90%;
+	display: block;
+  	font-size: 16px;
+  	font-weight: 300;
+  	margin-left: 5%;
+  	margin-right: 5%;
+  	margin-top: 10px;
+  	border: 1px solid #eceff1;
+  	padding: 15px;
+  	z-index: 1;
+	position: relative;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	background: #fff;
+	border: 1px solid #d9d9d9;
+	border-top: 1px solid #c0c0c0;
+}

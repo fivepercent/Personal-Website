@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>Contact</title>
+	<link rel="stylesheet" href="css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://use.fontawesome.com/995ae96a4b.js"></script>
+	<script src="js/helper.js"></script>
+	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Pacifico'>
+</head>
+<body>
+<div>
+<!-- Navbar (sit on top) -->
+ 	<div id="header" class="home-top">
+ 		<a href="Home.html"><img src="images/logo1.png" class="logo" href="#logo"/></a>
+ 		<div class="navbar">
+ 			<a href="#projects" class="navbar-item navbar-button">Projects</a>
+    		<a href="About.html" class="navbar-item navbar-button">About</a>
+    		<a href="#contact" class="navbar-item navbar-button">Contact</a>
+ 		</div>
+ 	</div>
+
+ 	<div style="clear: both;"></div>
+	<div id="bio" class="hero-body">
+		<div id="container" class="container">
+			<h1>Contact</h1>
+			<p>I'd like to hear from you</p>
+			<i class="fa fa-envelope fa-lg"></i>
+			<form action="mailto:zhuzhenle@gmail.com" method="post" enctype="text/plain">
+        		<div>
+          			<input required id="name" class="contactinput" type="text" name="name" placeholder="Name">
+        		</div>
+        		<div>
+          			<input required id="email" class="contactinput" type="email" name="email" placeholder="Email">
+        		</div>
+        		<div>
+          			<input required id="subject" class="contactinput" type="text" name="subject" placeholder="Subject">
+        		</div>
+        		<div>
+          			<textarea required name="description" class="contactinput" id="description" placeholder="Description"></textarea>
+        		</div>
+        		<div>
+          			<button type="reset" class="btn clear" name="clear">CLEAR</button>
+          			<button type="submit" class="btn action" name="submit">SEND</button>
+        		</div>
+      		</form>	
+		</div>
+	</div>
+	<div id="bottom" class="home-bottom"></div>
+</div>
+
+<script src="js/contact.js"></script>
+
+</body>
+</html>
