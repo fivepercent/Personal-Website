@@ -1,4 +1,11 @@
 <html>
+<head>
+	<style>
+		.center {
+			text-align: center;
+		}
+	</style>
+</head>
 <body>
 
 <?php
@@ -22,7 +29,9 @@ function test_input($data) {
   return $data;
 }
 
-echo "<h2>Thank you!</h2>";
+echo "<div class = \"center\"><img src=\"../Personal Website/images/header.jpg\" width=\"1000px\"></div>";
+echo "<h2 class = \"center\">Thank you!</h2>";
+echo "<p class = \"center\">We will be in touch soon.</p>";
 $smtpserver = "ssl://smtp.zoho.com";
 
 $smtpserverport = 465;
