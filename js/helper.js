@@ -30,3 +30,15 @@ var HTMLabouttag = '<a class="tag">%data%</a>';
 var HTMLaboutwelcome = '<h2 align="left">%data%</h2>';
 var HTMLaboutintroduction = '<p align="left">%data%</p>';
 
+var HTMLproject = '<li id="project%id%" class="project"></li>';
+var HTMLprojectdetails = '<div id="project-details%id%" class="project-details"></div>';
+var HTMLprojectlogotitle = '<a id="project-logo-title%id%" class="project-logo-title" href=""></a>';
+var HTMLprojectimg200 = '<img src="%data%" alt="">';
+var HTMLprojecttitle = '<span class="project-label">%data%</span>';
+var HTMLprojectcontenttitle='<h3>%data%</h3>';
+var HTMLprojectcontentimg='<div id= "project-details-img%id%" class= "project-details-img"></div>';
+var HTMLprojectimg300= '<img  src="%data%" alt="">';
+var HTMLprojectdescription = '<div id="project-description%id%" class="project-description"></div>';
+var HTMLprojectdescriptiontext = '<p>%data%</p>';
+var HTMLprojectskills = '<div id="skillsused%id%" class="skillsused"></div>';
+var HTMLprojectskill = '<img class="icon" src="images/skill-logo/%data%.png">';

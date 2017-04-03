@@ -1,30 +1,16 @@
- var bio ={
- 	"name":"Zhenle Zhu",
- 	"biopic":"images/me.jpg",
- 	"logo":"images/logo1.png",
- 	"motto":"What can't kill me makes me stronger",
- 	"social_media":{
- 		"github":"https://github.com/fivepercent",
- 		"facebook":"https://www.facebook.com/jerry.zhu.587",
- 		"instagram":"https://www.instagram.com/zhuzhenle",
- 		"twitter":"https://twitter.com/Zhuzhenle"
- 	},
- 	"contacts":{
- 		"email":"zhuzhenle2016@gmail.com",
- 		"mobile":"352-284-6698",
- 		"github":"fivepercent",
- 		"twitter":"@Zhuzhenle",
- 		"location":"Fremont, CA, USA"
- 	},
- 	"skills_efficient":[
- 		"Java", "Javascript"
- 	],
- 	"skills":[
- 		"HTML", "CSS", "jQuery", "Python", "C++", "C", "MySQL", "SQLite", "Shell scripting"
- 	]
- }
 
- bio.display = function(){
+ var xmlhttp = new XMLHttpRequest();
+ var bio;
+ xmlhttp.onreadystatechange = function(){
+ 	if(this.readyState == 4 && this.status == 200){
+ 		bio = JSON.parse(this.responseText);
+ 		display();
+ 	}
+ };
+ xmlhttp.open("GET", "data/bio.json", true);
+ xmlhttp.send();
+
+ function display(){
  	var formattedlogo = HTMLheaderlogo.replace("%data%", bio.logo);
  	var formattedbiopic = HTMLbiopic.replace("%data%", bio.biopic);
  	var formattedname = HTMLbioname.replace("%data%", bio.name);
@@ -73,7 +59,4 @@
  	$("#twitter").append(HTMLbiotwittericon);
  }
 
-
-
- bio.display();
  

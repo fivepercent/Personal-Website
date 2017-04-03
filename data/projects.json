@@ -1,0 +1,50 @@
+[
+      {
+        "projecttitle":"Page Rank",
+        "projectimg200x200":"images/proj/pagerank200x200.jpg",
+        "contenttitle":"Page Rank",
+        "projectimg300x300":"images/proj/pageRank300x300.png",
+        "description":"• Implemented PageRank algorithm using Hadoop MapReduce. <br>• Converted raw data into transition matrix. <br>• Calculated and constructed relationship map from transition matrix using PageRank algorithm. <br>• Buit web application for PageRank model displaying.",
+        "skillsused":["java", "hadoop"]       
+      },
+      {
+        "projecttitle":"Sentiment Analysis",
+        "projectimg200x200":"images/proj/twitter200x200.png",
+        "contenttitle":"Top 5 twitter hashtags Sentiment Analysis",
+        "projectimg300x300":"images/proj/twitter300x300.png",
+        "description":"• Used Scrapy framework to crawl the tweets with daily top 5 twitter hashtags.<br>• Used Hadoop mapreduce to do sentiment analysis for those hashtags through the tweets.<br>• Converted result into readable JSON file.<br>• Built visualization for result exhibition.",
+        "skillsused":["java", "hadoop", "python"]       
+      },
+      {
+        "projecttitle":"Auto Complete",
+        "projectimg200x200":"images/proj/autocomplete200x200.png",
+        "contenttitle":"Wiki Auto Complete",
+        "projectimg300x300":"images/proj/autocomplete300x300.png",
+        "description":"• Created N-Gram Library using Hadoop MapReduce, from plain-text Wikipedia database dump.<br>• Built language model based on N-Gram Library and the theory of probability.<br>• Stored result in mysql database.<br>• Built a Google-like web application for displaying wiki auto complete.",
+        "skillsused":["java", "hadoop"]       
+      },
+      {
+        "projecttitle":"Speaker Recognition",
+        "projectimg200x200":"images/proj/speaker200x200.png",
+        "contenttitle":"Speaker Recognition Project",
+        "projectimg300x300":"images/proj/speaker300x300.jpg",
+        "description":"• Built text-independent Speaker Recognition system using Java.<br>• Extracted input data from original audio file and used large scale of data for system training.<br>• Created Mel Frequency Cepstrum Coefficients calculation and extraction block to get major feature of human voice.<br>• Implemented Vector Quantization algorithm to model the feature of human voice and assist speaker recognition.",
+        "skillsused":["java", "matlab"]
+      },
+      {
+        "projecttitle":"Android Application",
+        "projectimg200x200":"images/proj/amilc200x200.png",
+        "contenttitle":"Android Weather application Project",
+        "projectimg300x300":"images/proj/amilc300x300.jpg",
+        "description":"• Built Sync Adapter component that can spawn a thread to obtain JSON data from OpenWeatherMap API in the background.<br>• Reduced the number of API calls by caching weather forecast data and designed schemas to group data logically in SQLite database.<br>• Implemented Content provider and resolver for secure data sharing with other applications.<br>• Built notification system to push current weather of user’s location if user doesn’t check weather condition for more than 24 hours.",
+        "skillsused":["android", "java"]
+      },
+      {
+        "projecttitle":"Computer Vision",
+        "projectimg200x200":"images/proj/computerVision200x200.jpg",
+        "contenttitle":"Real-Time Feature Point Detection",
+        "projectimg300x300":"images/proj/computerVision300x300.jpg",
+        "description":"• Designed and improved the computer vision algorithm for real-time feature point detection on streaming video camera system.<br>• Worked both on C++ and Matlab to implement the Speed-up Robust Feature (SURF) detection algorithm.<br>• Designed and implemented an improved algorithm to reduce 10% of execution time.<br>• Built C++ tests for new features and internal result of algorithm with existing testing framework.",
+        "skillsused":["c++", "matlab"]
+      }
+]

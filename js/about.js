@@ -1,18 +1,16 @@
-var about ={
-	"aboutpic" : "images/aboutpic.jpg",
-	"featuredtags" : [
-		"#Programming", "#Travel", "#Potographer", "#Engineer", "#Sports cards", 
-		"#Machine Learning", "#Basketball", "#Big Data", "#Earphones", "#Android",
-		"#Marvell Technology Ltd.", "#SoC", "#Web Scrawler", "University of Florida", 
-		"ECE"
-	],
-	"welcomemessage":"Welcome! This is Zhenle.",
-	"introduction":"I'm a programmer. I love creating beautiful things(software and photographs).<br>I consider myself as a life-long programmer and designer.\
-		<br>I'm now open to the new opportunities."
-}
 
-about.display=function(){
+var xmlhttp = new XMLHttpRequest();
+var about;
+xmlhttp.onreadystatechange = function(){
+ 	if(this.readyState == 4 && this.status == 200){
+ 		about = JSON.parse(this.responseText);
+ 		display();
+	}
+};
+xmlhttp.open("GET", "data/about.json", true);
+xmlhttp.send();
 
+function display(){
 	var formattedaboutpic = HTMLaboutpic.replace("%data%", "images/aboutpic.jpg");
 	var formattedaboutwelcome = HTMLaboutwelcome.replace("%data%", about.welcomemessage);
 	var formattedintroduction = HTMLaboutintroduction.replace("%data%", about.introduction);
@@ -37,5 +35,3 @@ about.display=function(){
 	}
 
 }
-
-about.display();
